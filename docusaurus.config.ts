@@ -59,6 +59,11 @@ const config: Config = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          href: 'https://www.linkedin.com/in/ozh-gur/',
+          label: 'LinkedIn',
+          position: 'right',
+        },
       ],
     },
     footer: {
@@ -66,8 +71,8 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Oguzhan Gur. Built with Docusaurus.`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.oneLight,
+      darkTheme: prismThemes.oneDark,
     },
   } satisfies Preset.ThemeConfig,
 };
