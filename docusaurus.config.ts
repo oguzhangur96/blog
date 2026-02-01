@@ -56,12 +56,14 @@ const config: Config = {
       items: [
         {
           href: 'https://github.com/oguzhangur96',
-          label: 'GitHub',
+          'aria-label': 'GitHub',
+          className: 'navbar-icon navbar-github',
           position: 'right',
         },
         {
           href: 'https://www.linkedin.com/in/ozh-gur/',
-          label: 'LinkedIn',
+          'aria-label': 'LinkedIn',
+          className: 'navbar-icon navbar-linkedin',
           position: 'right',
         },
       ],
